@@ -1,0 +1,50 @@
+.sign_page {
+    display: flex;
+    padding: 1rem;
+}
+
+.sign_page input {
+    flex: 1;
+    border: 1px solid #eee;
+    height: 3.6rem;
+    text-indent: .5rem;
+}
+
+.sign_page .timer {
+    width: 8rem;
+    height: 3.6rem;
+    line-height: 3.6rem;
+    background: #eee;
+    border-radius: 1rem;
+    text-align: center;
+    margin-left: 1rem;
+    color: #666;
+    font-size: 1.3rem;
+}
+
+.sign_page .timer2 {
+    width: 8rem;
+    height: 3.6rem;
+    line-height: 3.6rem;
+    background: red;
+    border-radius: 1rem;
+    text-align: center;
+    margin-left: 1rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.code_info {
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+}
+
+.code_info .code_info_p {
+    color: #999;
+    font-size: 1.2rem;
+}
+
+.reg_btn {
+    margin-top: 2rem;
+}

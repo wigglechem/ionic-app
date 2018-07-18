@@ -1,0 +1,113 @@
+.cart_list {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 0px .5rem;
+}
+
+.cart_list dt {
+    padding: 1rem 0;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+.cart_list dd {
+    flex: 1;
+}
+
+.cart_list dt ion-checkbox {
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
+.cart_list dt img {
+    flex: 1;
+    height: 6rem;
+    margin-right: .5rem;
+}
+
+.cart_list dd .cart_title {
+    font-size: 1.4rem;
+    padding: .5px;
+    margin: 0px;
+}
+
+.cart_list dd .cart_info {
+    display: flex;
+}
+
+.cart_list dd .cart_price {
+    flex: 1;
+    line-height: 2.8rem;
+}
+
+.cart_list dd .cart_num {
+    width: 100px;
+    display: flex;
+}
+
+.cart_list dd .cart_num .input_left,
+.input_right {
+    text-align: center;
+    width: 2.8rem;
+    height: 2.8rem;
+    line-height: 2.8rem;
+    border: 1px solid #eee;
+    background: #eee;
+}
+
+.cart_list dd .cart_num .input_center {
+    flex: 1;
+    input {
+        width: 100%;
+        line-height: 2.8rem;
+        border: 1px solid #eee;
+        text-align: center;
+    }
+}
+
+.all_price {
+    height: 4.4rem;
+    line-height: 4.4rem;
+}
+
+.all_price ion-checkbox {
+    position: relative;
+    top: .5rem;
+}
+
+.checkbox-ios.checkbox-disabled,
+.item-ios.item-checkbox-disabled ion-label {
+    opacity: 1!important;
+}
+
+.cart_spinner {
+    width: 60px;
+    height: 60px;
+    margin: 60px auto;
+}
+
+#edit {
+    color: red
+}
+
+.dopay {
+    height: 4.4rem;
+    line-height: 4.4rem;
+    text-align: center;
+    color: #fff;
+    background: red;
+    font-size: 1.6rem;
+    padding: 0px 1.4rem;
+}
+
+.dodelete {
+    height: 3.4rem;
+    line-height: 3.4rem;
+    text-align: center;
+    padding: 0px 1.4rem;
+    color: #666;
+    border: 1px solid red;
+    font-size: 1.6rem;
+    border-radius: .5rem;
+}

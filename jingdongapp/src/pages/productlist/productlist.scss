@@ -1,0 +1,29 @@
+.sub_header {
+    height: 4rem;
+    line-height: 4rem;
+    position: fixed;
+    top: 4.3rem;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    z-index: 2;
+    background: #fff;
+}
+
+.sub_header div {
+    flex: 1;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.list_content .list-ios[inset] {
+    margin-top: 4rem!important;
+}
+
+.list_content ion-list ion-item p .price {
+    color: red;
+}
+
+.list_content .label-ios h2 {
+    font-size: 1.3rem;
+}

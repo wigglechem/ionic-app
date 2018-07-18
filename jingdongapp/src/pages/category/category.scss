@@ -1,0 +1,46 @@
+.cate_content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.cate_content .cate_left {
+    width: 100px;
+    height: 100%;
+    overflow-y: auto;
+    color: #666;
+    border-right: 1rem solid #eee;
+    /*左边拉左边 右边拉右边互不敢扰*/
+}
+
+.cate_content .cate_right {
+    height: 100%;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.cate_content .cate_left ion-label {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.cate_content .cate_right ion-label {
+    font-size: 1.4rem
+}
+
+.cate_content .cate_right ion-col {
+    border: 0.5px solid #eee;
+    margin-left: - 0.5px;
+    margin-top: -0.5px;
+}
+
+.cate_content .cate_right ion-col p {
+    text-align: center;
+    color: #666;
+}
+
+.cate_content .cate_right ion-col img {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+}
